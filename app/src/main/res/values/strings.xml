@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EyesOn</string>
+    <string name="login_signup">Login/SignUp</string>
+    <string name="save_detail">Save Detail</string>
+    <string-array name="geneder">
+        <item>Select Gender</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="disability">
+        <item>Select disability</item>
+        <item>Vision Impairment</item>
+        <item>N/A</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

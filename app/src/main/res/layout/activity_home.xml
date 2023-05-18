@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgtheme"
+    tools:context=".Home.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cv"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        app:cardElevation="@dimen/_8sdp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_height="@dimen/_45sdp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:elevation="12dp"
+            android:outlineSpotShadowColor="@color/theme"
+            android:outlineAmbientShadowColor="@color/theme"
+            android:layout_height="55dp"
+            app:menu="@menu/home_menu" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

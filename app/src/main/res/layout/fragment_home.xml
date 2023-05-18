@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bghome"
+    tools:context=".Home.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        app:cardCornerRadius="@dimen/_18sdp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/cv_id">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:hint="Type to search"
+                android:paddingStart="12dp"
+                android:background="#11FFFFFF"
+                android:paddingEnd="@dimen/_12sdp"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/teal_700" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/baseline_mic_24"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tv_itemrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginHorizontal="@dimen/_12sdp"/>
+
+</LinearLayout>

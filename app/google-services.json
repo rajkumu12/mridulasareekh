@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "367156083974",
+    "project_id": "mobile-app-4c146",
+    "storage_bucket": "mobile-app-4c146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367156083974:android:b7d1f5f1d1a9aa1237b287",
+        "android_client_info": {
+          "package_name": "com.educamp.eyeson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367156083974-bhkt9go02ajr5agg9dip035d7mqtmjsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.educamp.eyeson",
+            "certificate_hash": "37878a85e8bf798758bc1d6f49b4b7434bf44475"
+          }
+        },
+        {
+          "client_id": "367156083974-0n0jka7tb53lntri98omdt792eiuegga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOng7NDKQhjLEy0QMnzQf2I5IbfVSQIvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367156083974-0n0jka7tb53lntri98omdt792eiuegga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
